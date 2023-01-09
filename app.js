@@ -96,7 +96,7 @@ app.get('/nowa', function (req, res) {
   });
 
 app.get('/stara', function (req, res) {
-    res.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit ornare ipsum, vestibulum maximus enim scelerisque quis. In quis orci nulla. Morbi tellus sapien, vehicula eu tempor elementum, facilisis ut turpis. Maecenas venenatis sagittis eros, nec congue neque finibus vel. Nam tincidunt finibus quam, vitae volutpat massa suscipit nec. Maecenas vitae sem at sem ultricies feugiat. In eleifend lorem in odio lacinia viverra. Donec lorem nisi, mattis dictum pretium non, fermentum id ligula. Sed commodo ligula at congue rutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus euismod eleifend ligula quis mattis.");
+    res.write("lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit ornare ipsum, vestibulum maximus enim scelerisque quis. In quis orci nulla. Morbi tellus sapien, vehicula eu tempor elementum, facilisis ut turpis. Maecenas venenatis sagittis eros, nec congue neque finibus vel. Nam tincidunt finibus quam, vitae volutpat massa suscipit nec. Maecenas vitae sem at sem ultricies feugiat. In eleifend lorem in odio lacinia viverra. Donec lorem nisi, mattis dictum pretium non, fermentum id ligula. Sed commodo ligula at congue rutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus euismod eleifend ligula quis mattis.");
     res.end();
   });
 
