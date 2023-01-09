@@ -80,3 +80,23 @@ app.get('/witaj', function (req, res) {
 });
 
 
+///LAB 4 punkt 3
+
+app.get('/punkt3', function (req, res) {
+  console.log("PUNKT 3 ZADANAIA LAB 4")
+});
+
+
+///LAB 4 punkt 4
+
+app.get('/nowa', function (req, res) {
+  
+    res.write("Klient jest bardzo ważny, klient będzie podążał za klientem. Jutro postanawia się udekorować, bo najważniejsza jest czekolada. U nikogo nie ma leczenia. Wycena, pojazdy i element czasu, łatwy w użyciu. Mecenas zatruł ziemię strzałami, ani pracą domową, ani granicami. W rzeczywistości koniec kadencji nie zajmuje masy życia. Maecenas vitae sem at sem ultricies feugiat. W eleifend lorem in hate lacinia cartoon. Do tego czasu, z wyjątkiem ceny nieruchomości, cena nieruchomości nie jest ceną drożdży. Ale dobrze jest odrobić pracę domową. Zajęcia są odpowiednie dla cichych partnerów, którzy zwracają się ku brzegom poprzez nasze małżeństwa, poprzez projekty hymenejskie. Phasellus euismod eleifend ligula quis mattis");
+    res.end();
+  });
+
+app.get('/stara', function (req, res) {
+    res.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit ornare ipsum, vestibulum maximus enim scelerisque quis. In quis orci nulla. Morbi tellus sapien, vehicula eu tempor elementum, facilisis ut turpis. Maecenas venenatis sagittis eros, nec congue neque finibus vel. Nam tincidunt finibus quam, vitae volutpat massa suscipit nec. Maecenas vitae sem at sem ultricies feugiat. In eleifend lorem in odio lacinia viverra. Donec lorem nisi, mattis dictum pretium non, fermentum id ligula. Sed commodo ligula at congue rutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus euismod eleifend ligula quis mattis.");
+    res.end();
+  });
+
